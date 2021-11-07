@@ -6,6 +6,8 @@ from PIL import ImageTk,Image
 from tkinter import ttk
 from concurrent import futures
 
+# pip install: requests, pillow, ujson
+
 #region Static Requests
 
 key = "RGAPI-c4505d41-6f46-432e-9443-c727afcf6e8d"
@@ -1067,31 +1069,29 @@ def AppBuilder(event):
     for player in range(5):
 
         if playerHistoryButtonArray[player] != 0:
+            for preview in range(10): #Dict 
+                
+                # ----------- Data Requests -----------
 
-            with futures.ThreadPoolExecutor(max_workers = 10):
-                for preview in range(10): #Dict 
-                    
-                    # ----------- Data Requests -----------
+                statsChampionArray[player].MatchStatsChampionRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid, player)
+                statsSpellsArray[player].MatchStatsSpellsRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
+                statsItemsArray[player].MatchStatsItemsRequests(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
+                matchStatsPlayerArray[player].MatchStatsPlayerRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
+                statsGameArray[player].GetMatchResult(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
+                statsGameArray[player].MatchModeRequest(matchDataArray[player][preview])
+                statsGameArray[player].MatchTimeRequest(matchDataArray[player][preview])
+                
+                # ----------- UI Elements -----------
 
-                    statsChampionArray[player].MatchStatsChampionRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid, player)
-                    statsSpellsArray[player].MatchStatsSpellsRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
-                    statsItemsArray[player].MatchStatsItemsRequests(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
-                    matchStatsPlayerArray[player].MatchStatsPlayerRequest(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
-                    statsGameArray[player].GetMatchResult(matchDataArray[player][preview], playerStatsArray[player].playerPuuid)
-                    statsGameArray[player].MatchModeRequest(matchDataArray[player][preview])
-                    statsGameArray[player].MatchTimeRequest(matchDataArray[player][preview])
-                    
-                    # ----------- UI Elements -----------
+                MatchPreview.ChampionCircle(playerMatchArray[player][preview], championList[player][preview], statsChampionArray[player].championLevel)
+                MatchPreview.GamemodeResult(playerMatchArray[player][preview], statsGameArray[player].matchResult, statsGameArray[player].gameMode, 
+                statsSpellsArray[player].GetSpellSprites(player, preview), preview)
 
-                    MatchPreview.ChampionCircle(playerMatchArray[player][preview], championList[player][preview], statsChampionArray[player].championLevel)
-                    MatchPreview.GamemodeResult(playerMatchArray[player][preview], statsGameArray[player].matchResult, statsGameArray[player].gameMode, 
-                    statsSpellsArray[player].GetSpellSprites(player, preview), preview)
+                MatchPreview.PlayerResult(playerMatchArray[player][preview], matchStatsPlayerArray[player].playerGold, matchStatsPlayerArray[player].playerMinions, 
+                matchStatsPlayerArray[player].ScoreConstructor(), statsItemsArray[player].GetItemSprites(player, preview), preview)
 
-                    MatchPreview.PlayerResult(playerMatchArray[player][preview], matchStatsPlayerArray[player].playerGold, matchStatsPlayerArray[player].playerMinions, 
-                    matchStatsPlayerArray[player].ScoreConstructor(), statsItemsArray[player].GetItemSprites(player, preview), preview)
-
-                    MatchPreview.TimeData(playerMatchArray[player][preview], statsGameArray[player].mapName, statsGameArray[player].gameDuration, statsGameArray[player].gameCreation)
-                    MatchPreview.PreviewLine(playerMatchArray[player][preview])
+                MatchPreview.TimeData(playerMatchArray[player][preview], statsGameArray[player].mapName, statsGameArray[player].gameDuration, statsGameArray[player].gameCreation)
+                MatchPreview.PreviewLine(playerMatchArray[player][preview])
        
 def ChangeSearch(event):
     if str(event.type) == "ButtonPress":
@@ -1106,7 +1106,7 @@ def ChangeEntry(event, player):
         if i == player:
             playerHistoryButtonArray[i].configure(background = "#042937")
 
-        elif playerArray[i].get() != "" and " ":
+        elif playerHistoryButtonArray[i] != 0:
             playerHistoryButtonArray[i].configure(background = "black")
 
 searchButton.bind("<Button-1>", ChangeSearch)
