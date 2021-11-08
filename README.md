@@ -73,3 +73,8 @@ Fazer algo complexo parecer simples é mais difícil que fazer algo trivial pare
 ### Clareza na estrutura do código remove anotações desnecessárias
 
 Quanto mais clara e limpa é a estrutura de um código e mais nítido são as funções de cada elemento seu, menos anotações são necessárias para seu entendimento. Falar por código é mais díficil do que por palavras, porém mais eficiente.
+
+# Observações
+
+Quaisquer alterações feitas pela RIOT após 08/11/21 estarão fora do escopo deste programa. Caso o programa não funcione como esperado, sinta-se livre para sugerir soluções com Pull Requests.
+Sugestões e observações sobre a estrutura do programa também são bem-vindas.
