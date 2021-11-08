@@ -69,19 +69,6 @@ As I developed and refactored the program, i followed some personal principles:
 Simplicity is used so at first look a developer within any proficiency level can understand the code.
 To make something complex look simple is a bigger task than making something easy look complicated.
 
-### Essecial is what it's necessary to make the program run well, being it the minimal code possible
-
-Without affecting it's quality, the code needed to work must be the minimal possible. If a solution already exists, it probably also exists a smaller and simpler way of doing it.
-
-### Clarity above simplicity, simplicity above 'super-eficiency'
-
-Clarity on it's structure, in each function name, variable and class is more important than excessive code miniaturization because excessive code miniaturization can make it harder to understand how the code works.
-Although clarity comes first, simplicity it's more valuable than complex syntax used to gain miliseconds of efficiency;
-
-### Efficiency and speed to give a good user experience, not for benchmarks
-
-In programs with simple functionality like this one, efficiency and speed are only valuable as far as human perception go.
-
 ### Clarity in a code's structure removes unnecessary notations
 
 The clearer and cleaner the code and each of it's functions is, the less notations needed. Although communicating through code is harder than plain language, it's more efficient.
