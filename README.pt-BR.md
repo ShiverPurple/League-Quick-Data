@@ -57,7 +57,7 @@ No decorrer do desenvolvimento do programa e de sua refatoração segui alguns p
 Prezo pela simplicidade do código para que seja de fácil entendimento ao primeiro olhar, independente do grau de instrução do programador.
 Fazer algo complexo parecer simples é mais difícil que fazer algo trivial parecer complicado.
 
-### Essencial é apenas o necessário para o programa funcionar, sendo esse o mínimo possível
+### Essencial é apenas o necessário para o programa funcionar bem, sendo esse o mínimo possível
 
 Sem que comprometa seu funcionamento, prezo pelo menor código e pelo mínimo de syntax possível no desenvolvimento do programa. Se alguma solução já existe, provavelmente existe uma maneira mais simples e menor de realizá-la.
 
