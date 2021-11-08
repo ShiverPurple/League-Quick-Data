@@ -72,3 +72,8 @@ To make something complex look simple is a bigger task than making something eas
 ### Clarity in a code's structure removes unnecessary notations
 
 The clearer and cleaner the code and each of it's functions is, the less notations needed. Although communicating through code is harder than plain language, it's more efficient.
+
+# Final Thoughts
+
+Any changes made by RIOT after 11/08/21 won't be covered by this program. If this application do not work as expected, feel free to open Pull Requests or bug tickets.
+Any sugestions and thoughts about the application itself is also welcome.
