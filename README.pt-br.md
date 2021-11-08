@@ -1,3 +1,16 @@
+<p align=”center”>
+<a href=https://www.linkedin.com/in/wandersongasco/>
+<img src=https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue>
+</a>
+<a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.en.md/>
+<img src=https://img.shields.io/badge/lang-en-red>
+</a>
+</a>
+<a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.pt-br.md/>
+<img src=https://img.shields.io/badge/lang-pt--br-success>
+</a>
+</p>
+
 # League Quick Data
 
 ## O que o programa faz
