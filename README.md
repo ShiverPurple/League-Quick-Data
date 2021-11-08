@@ -6,7 +6,7 @@
 <img src=https://img.shields.io/badge/lang-en-red>
 </a>
 </a>
-<a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.pt-br.md/>
+<a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.md/>
 <img src=https://img.shields.io/badge/lang-pt--br-success>
 </a>
 </p>
