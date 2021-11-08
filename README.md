@@ -63,24 +63,12 @@ Para que a execução do programa seja a mais rápida possível são utilizados 
 
 ## Filosofia de programação
 
-No decorrer do desenvolvimento do programa e de sua refatoração segui alguns princípios, entre eles:
+No decorrer do desenvolvimento do programa e de sua refatoração segui alguns princípios:
 
 ### Simples é melhor do que complicado, podendo ainda sim ser complexo
 
 Prezo pela simplicidade do código para que seja de fácil entendimento ao primeiro olhar, independente do grau de instrução do programador.
 Fazer algo complexo parecer simples é mais difícil que fazer algo trivial parecer complicado.
-
-### Essencial é apenas o necessário para o programa funcionar bem, sendo esse o mínimo possível
-
-Sem que comprometa seu funcionamento, prezo pelo menor código e pelo mínimo de syntax possível no desenvolvimento do programa. Se alguma solução já existe, provavelmente existe uma maneira mais simples e menor de realizá-la.
-
-### Clareza acima de simplicidade, simplicidade acima de 'super-eficiência'
-
-Clareza na estrutura do código, no nome de cada função, de cada várial e classe é mais importante do que a miniaturização do código pois miaturização excessiva pode ofuscar a funcionalidade de determinado elemento. Simplicidade, porém, é mais importante que elaboração de syntax complexas com o intuito de ganhar milésimos em tempo de execução.
-
-### Eficiência e velocidade para apresentar uma experiência satisfatória, não para benchmarks
-
-Para programas com funcionalidade simples, eficiência e velocidade de execução são importantes apenas até onde a percepção humana chega.
 
 ### Clareza na estrutura do código remove anotações desnecessárias
 
