@@ -10,7 +10,8 @@ from concurrent import futures
 
 #region Static Requests
 
-key = "RGAPI-7cc920a9-e9c7-4924-9b90-188594617e9b"
+keyRequest = requests.get("https://gist.githubusercontent.com/WandersonKnight/032a55b825884e9352baae6643a84d22/raw/251b1eb69d603712e758e7a51d388cceb7cb800b/leaguekey.json")
+key = ujson.loads(keyRequest.text)
 
 # ----------- Request Session -----------
 
