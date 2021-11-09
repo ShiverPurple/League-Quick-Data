@@ -84,8 +84,6 @@ class ChangeRegion:
         buttonBR.configure(background = "#10293f")
         buttonNA.configure(background = "black")
 
-        
-
 regionMethods = ChangeRegion()
 regionMethods.CreateDict()
 
@@ -848,6 +846,7 @@ class ProfileSummary:
                 # ----------- Champion Data -----------
 
                 championWinrate = f"{championDict[i][1][1]} / {championDict[i][1][2]}"
+                championWinrate = championWinrate + "  (" + str("{:.0f}".format((championDict[i][1][1] / (championDict[i][1][1] + championDict[i][1][2])) * 100)) + "%)"
 
                 championAverageKill = "{:.1f}".format(championDict[i][1][0][0] / (championDict[i][1][1] + championDict[i][1][2]))
                 championAverageDeath = "{:.1f}".format(championDict[i][1][0][1] / (championDict[i][1][1] + championDict[i][1][2]))
@@ -1218,7 +1217,7 @@ def AppBuilder(event):
     for player in range(5):
 
         if playerHistoryButtonArray[player] != 0:
-            for preview in range(10): #Dict 
+            for preview in range(10):  
                 
                 # ----------- Data Requests -----------
 
@@ -1270,4 +1269,4 @@ player5.bind("<Return>", AppBuilder)
 
 root.mainloop()
 
-#pyinstaller --onefile --noconsole gui.py
+#pyinstaller --onefile --noconsole MainFile.py
