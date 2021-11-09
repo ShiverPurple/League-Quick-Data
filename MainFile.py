@@ -38,7 +38,7 @@ mapListRawData = ujson.loads(mapListJsonData.text)
 
 root = tkinter.Tk()
 root.title("Quick League Data")
-root.iconbitmap("QL.ico")
+root.iconbitmap("LQ.ico")
 root.configure(background = "black")
 root.resizable(False, False)
 
