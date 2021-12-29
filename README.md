@@ -51,6 +51,14 @@ Resumo da partida:
 
 A interface de usuário do programa consiste em uma combinação entre a biblioteca de interface padrão de Python, chamada 'Tkinter', elementos visuais elaborados individualmente - como bordas e ícones - e arquivos de imagem retirados da API Datadragon da RIOT.
 
+#### Antes da pesquisa
+
+<img src="https://user-images.githubusercontent.com/39245594/147681869-c59ad6be-af8b-4488-a0de-de9c3dd6fcfa.png" alt="Your image title" width="600"/>
+
+#### Depois da pesquisa
+
+<img src="https://user-images.githubusercontent.com/39245594/147681961-d7c06b38-addf-4c80-a9b2-a74a59aa5854.png" alt="Your image title" width="600"/>
+
 ### Interação com API externa
 
 Por meio da biblioteca 'requests' são feitas chamadas para receber dados temporários, como nome, kda e Id de determinados objetos e downloads de objetos reutilizáveis, como ícones de spells, campeões e itens.
