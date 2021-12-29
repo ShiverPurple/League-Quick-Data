@@ -50,6 +50,14 @@ Match summary:
 
 The user interface consists of: Python' standard interface package 'Tkinter', icons and borders made specifically for the program and image files returned from RIOT Datadragon API.
 
+#### Before searching
+
+<img src="https://user-images.githubusercontent.com/39245594/147681869-c59ad6be-af8b-4488-a0de-de9c3dd6fcfa.png" alt="Default window" width="600"/>
+
+#### After searching
+
+<img src="https://user-images.githubusercontent.com/39245594/147681961-d7c06b38-addf-4c80-a9b2-a74a59aa5854.png" alt="Information window" width="600"/>
+
 ### External API interaction
 
 The 'requests' package is used to receive temporary data like name, kda and Ids, the package is also used to download frequently used objects, like icons for spells, champions and items.
