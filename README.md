@@ -53,11 +53,11 @@ A interface de usuário do programa consiste em uma combinação entre a bibliot
 
 #### Antes da pesquisa
 
-<img src="https://user-images.githubusercontent.com/39245594/147681869-c59ad6be-af8b-4488-a0de-de9c3dd6fcfa.png" alt="Your image title" width="600"/>
+<img src="https://user-images.githubusercontent.com/39245594/147681869-c59ad6be-af8b-4488-a0de-de9c3dd6fcfa.png" alt="Janela padrão" width="600"/>
 
 #### Depois da pesquisa
 
-<img src="https://user-images.githubusercontent.com/39245594/147681961-d7c06b38-addf-4c80-a9b2-a74a59aa5854.png" alt="Your image title" width="600"/>
+<img src="https://user-images.githubusercontent.com/39245594/147681961-d7c06b38-addf-4c80-a9b2-a74a59aa5854.png" alt="Janela com as informações" width="600"/>
 
 ### Interação com API externa
 
