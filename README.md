@@ -87,4 +87,4 @@ Quanto mais clara e limpa é a estrutura de um código e mais nítido são as fu
 Quaisquer alterações feitas pela RIOT após 08/11/21 estarão fora do escopo deste programa. Caso o programa não funcione como esperado, sinta-se livre para sugerir soluções com Pull Requests.
 Sugestões e observações sobre a estrutura do programa também são bem-vindas.
 
-Edit: A chave comercial da API ainda não foi liberada, então buscas com mais de 3 players podem não funcionar.
+É necessária a chave fornecida em sua Conta de Desenvolvedor da Riot. Chave não comercial fará apenas um máximo de 3 buscas simultâneas devido o limite de chamadas imposto pela própria Riot.
