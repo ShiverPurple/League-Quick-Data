@@ -10,8 +10,7 @@ from concurrent import futures
 
 #region Static Requests
 
-keyRequest = requests.get("https://gist.githubusercontent.com/WandersonKnight/032a55b825884e9352baae6643a84d22/raw/251b1eb69d603712e758e7a51d388cceb7cb800b/leaguekey.json")
-key = ujson.loads(keyRequest.text)
+key = 0000000000 #<-- Riot developer key needed.
 
 # ----------- Request Session -----------
 
