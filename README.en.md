@@ -86,5 +86,4 @@ The clearer and cleaner the code and each of it's functions is, the less notatio
 Any changes made by RIOT after 11/08/21 won't be covered by this program. If this application do not work as expected, feel free to open Pull Requests or bug tickets.
 Any sugestions and thoughts about the application itself is also welcome.
 
-
-Edit: The commercial API key is still pending, history search with more than 3 players might not work.
+Riot Developer key needed. The non-commercial key will allow a maximum of 3 simultaneous searches due to Riot's request limit.
