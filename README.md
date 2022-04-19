@@ -3,7 +3,7 @@
 <img src=https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue>
 </a>
 <a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.en.md/>
-<img src=https://img.shields.io/badge/lang-en-red>
+<img src=https://img.shields.io/badge/lang-eng-red>
 </a>
 </a>
 <a href=https://github.com/WandersonKnight/League-Quick-Data/blob/main/README.md/>
