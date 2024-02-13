@@ -50,11 +50,11 @@ Match summary:
 
 The user interface consists of: Python' standard interface package 'Tkinter', icons and borders made specifically for the program and image files returned from RIOT Datadragon API.
 
-#### Before searching
+#### Before search
 
 <img src="https://user-images.githubusercontent.com/39245594/147681869-c59ad6be-af8b-4488-a0de-de9c3dd6fcfa.png" alt="Default window" width="600"/>
 
-#### After searching
+#### After search
 
 <img src="https://user-images.githubusercontent.com/39245594/147681961-d7c06b38-addf-4c80-a9b2-a74a59aa5854.png" alt="Information window" width="600"/>
 
@@ -64,26 +64,9 @@ The 'requests' package is used to receive temporary data like name, kda and Ids,
 
 Some of the API functions requires a personal key provided by RIOT, with only it's requests limitations being removed upon formal registration of the application in the RIOT developers site.
 
-### Build and search time
-
-Multithreading with a 10 thread limit along with the download of frequently used files are some of the tools used to make the application runtime faster to provide a better user experience.
-
-## Developer's philosophy
-
-As I developed and refactored the program, i followed some personal principles:
-
-### Simple is better than complicated, which doesn't mean it can't be complex
-
-Simplicity is used so at first look a developer within any proficiency level can understand the code.
-To make something complex look simple is a bigger task than making something easy look complicated.
-
-### Clarity in a code's structure removes unnecessary notations
-
-The clearer and cleaner the code and each of it's functions is, the less notations needed. Although communicating through code is harder than plain language, it's more efficient.
 
 # Final Thoughts
 
-Any changes made by RIOT after 11/08/21 won't be covered by this program. If this application do not work as expected, feel free to open Pull Requests or bug tickets.
-Any sugestions and thoughts about the application itself is also welcome.
+Any changes made by RIOT after 11/08/21 won't be covered by this program.
 
 Riot Developer key needed. The non-commercial key will allow a maximum of 3 simultaneous searches due to Riot's request limit.
