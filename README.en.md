@@ -60,9 +60,7 @@ The user interface consists of: Python' standard interface package 'Tkinter', ic
 
 ### External API interaction
 
-The 'requests' package is used to receive temporary data like name, kda and Ids, the package is also used to download frequently used objects, like icons for spells, champions and items.
-
-Some of the API functions requires a personal key provided by RIOT, with only it's requests limitations being removed upon formal registration of the application in the RIOT developers site.
+The 'requests' package is used to receive temporary data like: player's name, KDA and Ids, it is also used to download frequently used objects, like icons for spells, champions and items to the user's PC.
 
 
 # Final Thoughts
